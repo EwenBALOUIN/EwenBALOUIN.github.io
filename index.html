@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Ewen BALOUIN</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Portfolio - Ewen Balouin</title>
 </head>
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<meta http-equiv = "refresh" content = "3; url = https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="HandheldFriendly" content="true">
 <body>
+    <header>
+        <h1>Ewen Balouin</h1>
+        <nav>
+            <ul>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="projets">
+            <h2>Projets</h2>
+            <div class="projet">
+                <img src="projet1.png" alt="Projet 1">
+                <h3>Projet 1</h3>
+                <p>Description du projet 1.</p>
+            </div>
+            <!-- Ajoutez plus de projets ici -->
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" required>
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" required>
+                <label for="message">Message :</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Ewen Balouin. Tous droits réservés.</p>
+    </footer>
 </body>
+</html>
